@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/main/main-foto.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+    /* font-weight: 600; */
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.header h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px black;
+}
+.header p {
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top:1em;
+    text-shadow: 1px 1px black;
+}
+.header button {
+    color: #fff;
+    background-color: #406F16;
+    padding: 16px 42px;
+    border: none;
+    margin-top: 4em;
+    border-radius: 5px;
+    font-size: 1.1em;   
+}
+@media(max-width: 838px) {
+    .header {
+        margin-top: 3em;
+    }
+    .header p {
+        font-size: 20px;
+    }
+    .header h1 {
+        font-size: 40px;
+    }
+
+}
